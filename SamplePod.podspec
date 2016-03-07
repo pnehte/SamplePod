@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
 s.name             = "SamplePod"
-s.version          = "0.1.0"
+s.version          = "0.2.0"
 s.summary          = "Sample Pod Project to test Private Pod"
 
 s.homepage         = "https://github.com/pnehte/SamplePod"
