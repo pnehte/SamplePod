@@ -3,6 +3,7 @@ use_frameworks!
 
 target 'SamplePod_Example', :exclusive => true do
   pod 'SamplePod', :path => '../'
+pod 'Alamofire'
 end
 
 target 'SamplePod_Tests', :exclusive => true do

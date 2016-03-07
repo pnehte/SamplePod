@@ -1,0 +1,30 @@
+{
+  "name": "SamplePod",
+  "version": "0.1.0",
+  "summary": "Sample Pod Project to test Private Pod",
+  "homepage": "https://github.com/pnehte/SamplePod",
+  "license": "MIT",
+  "authors": {
+    "Preeti Nehte": "preeti.nehte@globant.com"
+  },
+  "source": {
+    "git": "https://github.com/pnehte/SamplePod.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "requires_arc": true,
+  "source_files": "Pod/Classes/**/*",
+  "subspecs": [
+    {
+      "name": "Fetch",
+      "source_files": "Pod/Classes/Fetch/**/*",
+      "dependencies": {
+        "Alamofire": [
+
+        ]
+      }
+    }
+  ]
+}

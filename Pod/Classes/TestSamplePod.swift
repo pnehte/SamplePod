@@ -1,13 +1,16 @@
 //
-//  TestSamplePod.swift
+//  TestSampePod.swift
 //  Pods
 //
-//  Created by Preeti Nehte on 07/03/16.
+//  Created by Preeti Nehte on 04/03/16.
 //
 //
 
 import UIKit
 
-class TestSamplePod: NSObject {
-
+public class TestSampePod: NSObject {
+    
+    public func printString(string:String){
+        print(string)
+    }
 }
